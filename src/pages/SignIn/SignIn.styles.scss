@@ -1,0 +1,56 @@
+.col-left {
+  height: 100%;
+  // background-color: #c9ac8c;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.col-right {
+  height: 100%;
+  background-color: #f8f8f8;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .form-item {
+    width: -webkit-fill-available;
+    .mail-inp {
+      width: 500px;
+      margin-inline: auto;
+      font-family: "Proxima Nova";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #afafaf;
+      height: 45px;
+      padding-left: 12px;
+    }
+    .password-inp {
+      width: 500px;
+      margin-inline: auto;
+      font-family: "Proxima Nova";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #afafaf;
+      height: 45px;
+      padding-left: 12px;
+    }
+    .submitBtn {
+      width: 500px;
+      height: 55px;
+      left: 826px;
+      top: 463px;
+      background: #109cf1;
+      border: 1px solid #0b8adf;
+      border-radius: 4px;
+    }
+  }
+}

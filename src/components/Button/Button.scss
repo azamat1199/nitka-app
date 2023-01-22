@@ -1,0 +1,118 @@
+
+// .button {
+//   &.ant-btn:hover {
+//     color: $white;
+//     background: $CeruleanBlue;
+//     box-shadow: 0px 20px 20px rgba(24, 74, 209, 0.23);
+
+//     svg {
+//       fill: #fff !important;
+
+//       path {
+//         fill: #fff !important;;
+
+//         d {
+//           fill: #FFFFFF !important;
+//         }
+//       }
+//     }
+//   }
+
+//   @media only screen and (max-width: 480px) {
+//     height: unset !important;
+
+//     span {
+//       white-space: normal;
+//     }
+//   }
+
+//   svg {
+//     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+//   }
+
+//   &.ant-btn-primary {
+//     display: flex;
+
+//     //Type: primary
+//     &:hover {
+//       border-color: #2962ff;
+//       background: #2962ff;
+//       box-shadow: 0px 20px 20px rgba(24, 74, 209, 0.38);
+//     }
+
+//     &:focus {
+//       &:after {
+//         content: "";
+//         position: absolute;
+//         left: -8px;
+//         right: -7px;
+//         top: -8px;
+//         bottom: -8px;
+//         -webkit-border-radius: 32px;
+//         -moz-border-radius: 32px;
+//         border-radius: 32px;
+//         border: 6px solid rgba(179, 195, 238, 0.55);
+//       }
+//     }
+
+//     &:active {
+//       background: #2962ff;
+//     }
+
+//     svg {
+//       fill: #fff !important;
+//       path, rect {
+//         fill: #ffffff !important;
+//       }
+//     }
+//   }
+
+//   &.ant-btn-link {
+//     //Type: Link
+//     padding: 0;
+//     box-shadow: unset;
+//     cursor: unset;
+
+//     &:focus {
+//       background: $AthensGray200;
+//     }
+
+//     &:hover {
+//       background-color: transparent;
+//       box-shadow: unset;
+//     }
+
+//     span {
+//       transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+//       text-decoration-line: underline;
+//       color: $black;
+//       cursor: pointer;
+
+//       &:hover {
+//         color: #2962ff;
+//       }
+//     }
+//   }
+
+//   &.subtle {
+//     //Type: subtle
+//     border-width: 1px;
+//     font-weight: 400;
+//   }
+
+//   &.tab {
+//     //Type: tab
+//     border-color: $Heather;
+//     font-weight: 700;
+
+//     &:hover {
+//       border-color: $primary;
+//     }
+//   }
+
+//   &.ant-btn-round.ant-btn-lg {
+//     //Shape: round
+//     padding: 8px 38px;
+//     line-height: 20px;
+//   }
+// }

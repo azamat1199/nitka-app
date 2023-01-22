@@ -1,0 +1,57 @@
+.table {
+  position: relative;
+
+  :global {
+    .ant-table {
+      line-height: 17px;
+    }
+    .ant-table-selection-column .ant-checkbox-inner {
+      width: 16px;
+      height: 16px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+    }
+  }
+
+  .download {
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    background: transparent;
+
+    .label,
+    svg {
+      margin-right: 10px;
+    }
+  }
+
+  .filter {
+    margin-bottom: 30px;
+
+    :global {
+      .select {
+        min-width: 100px;
+      }
+    }
+
+    .right {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+
+      a {
+        display: flex;
+      }
+    }
+  }
+}
